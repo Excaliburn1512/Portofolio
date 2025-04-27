@@ -67,11 +67,8 @@ Pengembangan dan optimasi sistem booking tiket wisata berbasis web.
 ## 📈 Statistik GitHub
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Excaliburn1512&show_icons=true&theme=radical)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Excaliburn1512&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
 
-<p align="center">
+<p align="start">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Excaliburn1512&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
