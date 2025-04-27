@@ -25,7 +25,7 @@ Saya terbiasa menggunakan Java, PHP, Dart, dan Node.js, serta memiliki pengalama
 
 ## 🗂️ Proyek Unggulan
 
-### 📌 [SENTRA – Sistem Pelaporan](https://github.com/username/sentra-project)
+### 📌 [SENTRA – Sistem Pelaporan](https://github.com/Excaliburn1512/sentra-project)
 **Peran:** Web Developer  
 **Teknologi:** PHP, MySQL, HTML, CSS  
 **Deskripsi:**  
@@ -49,7 +49,7 @@ Aplikasi pembukuan sederhana dengan fokus pada pengalaman pengguna dan integrasi
 
 ---
 
-### 📌 [Nganjuk Visit – Sistem Booking Wisata](https://github.com/username/nganjuk-visit)
+### 📌 [Nganjuk Visit – Sistem Booking Wisata](https://github.com/Excaliburn1512/nganjuk-visit-mobile)
 **Peran:** System Maintenance & Enhancer  
 **Teknologi:** PHP, MySQL  
 **Deskripsi:**  
