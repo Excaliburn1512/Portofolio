@@ -1,0 +1,147 @@
+export const PORTFOLIO_DATA = {
+  developer: {
+    name: "Muhamad Igviloja Mahendra",
+    title: "Full-Stack Developer",
+    tagline: "Building the future, one system at a time.",
+    bio: "I architect and build high-performance mobile applications with modern technologies. Passionate about clean code, scalable systems, and interfaces that feel alive.",
+    location: "Nganjuk, Jawa Timur, Indonesia",
+    available: true,
+  },
+  projects: [
+  {
+    id: "proj-001",
+    title: "SENTRA",
+    description: "Mobile and web-based reporting platform featuring express reporting without login, biometric authentication, real-time chat consultation, and comprehensive report status tracking.",
+    tech: ["Flutter", "Node.js", "WebSocket", "MySQL", "AWS"],
+    year: "2025",
+    status: "DEPLOYED",
+    link: "https://sentra.pbltifnganjuk.com/public/",
+  },
+  {
+    id: "proj-002",
+    title: "RIVU",
+    description: "IoT-based automated aquaponics system integrated with a mobile app for remote monitoring and control, real-time ESP32-CAM streaming, and anomaly detection using machine learning.",
+    tech: ["Flutter", "PostgreSQL", "FastAPI", "WebSocket"],
+    year: "2025",
+    status: "DEPLOYED",
+    link: "https://pameran-jti.polije.ac.id/product/550/rivu-apps",
+  },
+  {
+    id: "proj-003",
+    title: "NganjukVisit",
+    description: "Tourism information system rebuilt from the ground up to enhance performance, featuring integrated WhatsApp booking capabilities to streamline visitor interactions.",
+    tech: ["MySQL", "Java", "Android Studio", "WebSocket"],
+    year: "2025",
+    status: "DEPLOYED",
+    link: "https://nganjukvisit.pbltifnganjuk.com/",
+  },
+  {
+    id: "proj-004",
+    title: "Esserythrocy",
+    description: "Expert system designed to train and optimize Convolutional Neural Network (CNN) models for anomaly classification in red blood cell imagery, featuring dataset preprocessing and a Flask-based interface.",
+    tech: ["Flask", "Python", "Deep Learning"],
+    year: "2025",
+    status: "ACQUIRED",
+    link: "https://esserythrocy.site/",
+  },
+  {
+    id: "proj-005",
+    title: "ZnakePayMaster",
+    description: "Java-based POS application integrating transaction database design with an efficient product management system, including automated calculations for profit, capital, and monthly sales reports.",
+    tech: ["Java", "Spring Boot", "MySQL"],
+    year: "2024",
+    status: "ACQUIRED",
+    link: "https://pameran-jti.polije.ac.id/x23241_ng/product/113/znakepaymaster",
+  },
+  {
+    id: "proj-006",
+    title: "P-KU",
+    description: "Java-based bookkeeping system structured to manage incoming and outgoing transaction records, featuring automated reporting modules to simplify profit calculation and financial monitoring.",
+    tech: ["Java", "Spring Boot", "MySQL"],
+    year: "2023",
+    status: "ACQUIRED",
+    link: "#",
+  },
+  {
+    id: "proj-007",
+    title: "CodeKid",
+    description: "Educational game for children aged 8-10 designed to develop fundamental algorithmic and programming logic, involving game concept design, visual assets, and logic-based problem generation.",
+    tech: ["Unity", "C#", "Blender"],
+    year: "2025",
+    status: "ACQUIRED",
+    link: "#",
+  },
+],
+  techStack: {
+  frontend: {
+    label: "Frontend & Mobile",
+    items: [
+      { name: "Flutter", level: 95 },
+      { name: "JavaScript", level: 90 },
+      { name: "PHP / Laravel", level: 88 },
+    ],
+  },
+  backend: {
+    label: "Backend",
+    items: [
+      { name: "Python / FastAPI / Flask", level: 92 },
+      { name: "Java", level: 90 },
+      { name: "Node.js", level: 88 },
+      { name: "MySQL / PostgreSQL", level: 92 },
+    ],
+  },
+  ai_and_systems: {
+    label: "AI, IoT & Systems",
+    items: [
+      { name: "Machine Learning / Deep Learning", level: 85 },
+      { name: "IoT", level: 88 },
+      { name: "Firebase", level: 85 },
+      { name: "Debian / Linux", level: 80 },
+    ],
+  },
+},
+  experience: [
+  {
+    id: "exp-001",
+    role: "Fullstack Developer (Mobile & IoT)",
+    company: "RIVU (Aquaponics System)",
+    period: "September 2025 - December 2025",
+    description:
+      "Developed an IoT-based automated aquaponics system with mobile integration for remote monitoring, ESP32-CAM streaming, and anomaly detection using Machine Learning.",
+    tech: ["Flutter", "FastAPI", "IoT", "Machine Learning"],
+  },
+  {
+    id: "exp-002",
+    role: "Fullstack Mobile Developer",
+    company: "SENTRA (Reporting Platform)",
+    period: "February 2025 - June 2025",
+    description:
+      "Developed a mobile/web reporting platform featuring biometric authentication, real-time consultation chat, and status tracking. Achieved 2nd Place at TIF Exhibition.",
+    tech: ["Flutter", "Node.js", "MySQL", "AWS"],
+  },
+  {
+    id: "exp-003",
+    role: "Research Assistant & AI Developer",
+    company: "Esserythrocy",
+    period: "August 2025 - November 2025",
+    description:
+      "Optimized CNN models for blood cell classification, handled dataset preprocessing, and built the Flask-based interface for model implementation.",
+    tech: ["Python", "Flask", "Deep Learning", "CNN"],
+  },
+  {
+    id: "exp-004",
+    role: "Lead Developer / Fullstack Developer",
+    company: "Various Projects (CodeKid, NganjukVisit, ZnakePayMaster)",
+    period: "2023 - 2025",
+    description:
+      "Led development for educational games, tourism systems, and desktop POS applications, focusing on logic design, database architecture, and automated reporting systems.",
+    tech: ["Java", "Unity", "C#", "MySQL", "Android Studio"],
+  },
+],
+  contact: {
+    email: "igvimahendra@gmail.com",
+    github: "github.com/Excaliburn1512",
+    linkedin: "linkedin.com/in/muhamad-igviloja-mahendra",
+    instagram: "instagram.com/ivmhndr_",
+  },
+} as const
