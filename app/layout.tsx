@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'AI Portfolio | Full-Stack Developer',
+  title: 'Muhamad Igviloja Mahendra Portfolio | Full-Stack Developer',
   description: 'An interactive AI-powered developer portfolio. Chat with my digital twin to explore my projects, tech stack, and experience.',
-  generator: 'v0.app',
+  generator: '',
   icons: {
     icon: [
       {
